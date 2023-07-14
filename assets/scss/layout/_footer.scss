@@ -1,0 +1,37 @@
+.footer{
+  background: #000000;
+  padding: 64px 0;
+}
+
+.footer-link {
+  display: table;
+  margin: 0 auto;
+  overflow: hidden;
+
+  li {
+    float: left;
+    margin-right: 40px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    a {
+      display: block;
+      width: 64px;
+      height: 64px;
+    }
+    
+    &.fb a {
+      background-image: url("../assets/images/fb.png");
+    }
+
+    &.ig a {
+      background-image: url("../assets/images/instagram.png");
+    }
+
+    &.line a {
+      background-image: url("../assets/images/line.png");
+    }
+  }
+}
